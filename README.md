@@ -13,9 +13,13 @@ npm run dev
 
 Props:
 type → "success" | "error" | "warning" | "info"
+
 message → string
+
 onClose → function
+
 children → optional ReactNode
+
 
 Use Case:
 Success messages
@@ -36,6 +40,8 @@ User dashboards
 Profile display sections
 Admin panels
 
+
+
 3️.ProductDisplay: Displays product details and supports adding to cart.
 
 Props:
@@ -51,15 +57,22 @@ Product detail cards
 Shopping cart interactions
 
 
+
 Reflection Questions
+
+
 How did you handle optional props in your components?
+
 I made some props optional and showed the content only if the prop was given. This keeps the component flexible..
 
 What considerations did you make when designing the component interfaces?
+
 I made sure each component does one job and can be reused in different places.
 
 How did you ensure type safety across your components?
+
 I used TypeScript types for props and state so errors can be caught early.
 
 What challenges did you face when implementing component composition?
+
 At first, passing props and using children was confusing, but I solved it by keeping components simple and organized.
