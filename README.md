@@ -3,10 +3,15 @@
 A reusable React component project built with React + TypeScript.This project demonstrates clean component architecture, prop typing, state management, and basic testing structure.
 
 Getting Started:
-1. Install dependencies
+1. Install dependencies:
+
 npm install
-2. Run the development server
+
+2. Run the development server:
+
 npm run dev
+
+
 
  Components:
 1️. AlertBox: A reusable alert component.
@@ -26,6 +31,8 @@ Success messages
 Error notifications
 Cart confirmation alerts
 
+
+
 2️.UserProfileCard: Displays user information.
 
 Props:
@@ -42,6 +49,8 @@ Admin panels
 
 
 
+
+
 3️.ProductDisplay: Displays product details and supports adding to cart.
 
 Props:
@@ -55,6 +64,8 @@ Use Case:
 E-commerce product listing
 Product detail cards
 Shopping cart interactions
+
+
 
 
 
